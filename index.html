@@ -1,13 +1,214 @@
-Hi, welcome to <b>Unstatic Technology Private Limited</b>.
-<br><br>
-Feel free to contact us at following:
-<br><br>
-<code>
-tdevmx@gmail.com
-</code>
-<br>
-or, 
-<br>
-<code>
-ppsajax@gmail.com
-</code>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unstatic Technology Private Limited — Consumer Electronics Manufacturing (India)</title>
+  <meta name="description" content="Unstatic Technology Private Limited — Indian manufacturer of consumer electronic products: cables, power adapters, and mobile chargers. Contact us for OEM/ODM and bulk orders." />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230ea5e9'/><text x='50' y='62' font-family='Arial,Helvetica,sans-serif' font-weight='700' font-size='54' text-anchor='middle' fill='white'>U</text></svg>">
+  <style>
+    *,*::before,*::after{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;line-height:1.6;-webkit-font-smoothing:antialiased; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans"; color:#0b1220; background:#f8fafc}
+    img{max-width:100%; display:block; border-radius:12px}
+    a{color:inherit; text-decoration:none}
+    :root{ --bg:#f8fafc; --bg-card:#ffffff; --text:#0b1220; --muted:#4b5563; --brand:#0ea5e9; --brand-600:#0284c7; --ring: 0 6px 32px rgba(2,132,199,.2); --radius:18px }
+    @media (prefers-color-scheme: dark){ :root{ --bg:#0b1220; --bg-card:#0f172a; --text:#e5e7eb; --muted:#94a3b8; --brand:#22d3ee; --brand-600:#0891b2; --ring:0 10px 36px rgba(34,211,238,.2);} body{background:var(--bg)} }
+
+    .container{width:min(1100px, 92%); margin-inline:auto}
+    header{position:sticky; top:0; backdrop-filter:saturate(1.4) blur(8px); background:color-mix(in lab, var(--bg), transparent 15%); border-bottom:1px solid color-mix(in lab, var(--muted), transparent 80%); z-index:50}
+    .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 0}
+    .logo{display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:.3px}
+    .logo-badge{width:36px;height:36px;border-radius:10px; background:linear-gradient(135deg, var(--brand), var(--brand-600)); display:grid; place-items:center; color:#fff; font-weight:900}
+
+    /* CTA style works for <a> and <button> */
+    .cta, button.cta{padding:10px 16px; border-radius:999px; background:var(--brand); color:#fff; font-weight:700; box-shadow:var(--ring); border:none; cursor:pointer}
+    .cta:hover, button.cta:hover{background:var(--brand-600)}
+
+    /* Clean desktop header nav */
+    .nav-group{display:flex; align-items:center; gap:16px; padding:6px; border-radius:999px; background:var(--bg-card); border:1px solid color-mix(in lab, var(--muted), transparent 80%)}
+    .nav-link{padding:8px 10px; border-radius:10px; color:var(--muted); font-weight:600}
+    .nav-link:hover{background:color-mix(in lab, var(--muted), transparent 92%); color:var(--text)}
+    .divider{width:1px; height:18px; background:color-mix(in lab, var(--muted), transparent 75%); border-radius:1px}
+
+    /* Mobile hamburger */
+    .mobile-toggle{display:none; align-items:center; justify-content:center; width:40px; height:40px; border-radius:12px; background:var(--bg-card); border:1px solid color-mix(in lab, var(--muted), transparent 80%); box-shadow:var(--ring); cursor:pointer}
+    .mobile-toggle svg{width:22px; height:22px}
+
+    @media (max-width:640px){
+      .nav-group{display:none}
+      .mobile-toggle{display:inline-flex}
+    }
+
+    /* Slide-out sheet */
+    .sheet{position:fixed; inset:0; display:none}
+    .sheet.open{display:block}
+    .sheet .backdrop{position:absolute; inset:0; background:rgba(2,6,23,.35); backdrop-filter:blur(2px)}
+    .sheet .panel{position:absolute; right:0; top:0; bottom:0; width:min(86%, 360px); background:var(--bg-card); border-left:1px solid color-mix(in lab, var(--muted), transparent 80%); box-shadow:var(--ring); transform:translateX(100%); transition:transform .25s ease; padding:16px; display:flex; flex-direction:column; gap:10px}
+    .sheet.open .panel{transform:translateX(0)}
+    .panel .row{display:flex; align-items:center; justify-content:space-between}
+    .close-btn{width:36px; height:36px; display:grid; place-items:center; border-radius:10px; background:var(--bg); border:1px solid color-mix(in lab, var(--muted), transparent 80%); cursor:pointer}
+    .menu-links{display:flex; flex-direction:column; gap:8px; margin-top:8px}
+
+    .hero-inner{display:grid; gap:22px; align-items:center; grid-template-columns:1fr; padding:48px 0 22px}
+    .eyebrow{font-size:.85rem; color:var(--muted); letter-spacing:.2em; text-transform:uppercase}
+    .title{font-size:clamp(1.8rem, 5vw, 3rem); line-height:1.15; font-weight:900}
+    .lead{color:var(--muted); font-size:1.05rem}
+    .hero-cta{display:flex; gap:12px; flex-wrap:wrap}
+    .btn{padding:12px 18px; border-radius:14px; background:var(--text); color:#fff; font-weight:700; box-shadow: var(--ring); display:inline-flex; align-items:center; gap:8px}
+    .btn.secondary{background:var(--bg-card); color:var(--text); border:1px solid color-mix(in lab, var(--muted), transparent 75%)}
+    .btn:hover{transform:translateY(-1px)}
+    section{padding:48px 0}
+    .section-title{font-size:clamp(1.4rem,4vw,2rem); font-weight:800; margin:0 0 8px}
+    .section-sub{color:var(--muted); margin-top:0}
+    .grid{display:grid; gap:16px}
+    @media(min-width:720px){ .grid.cols-3{grid-template-columns:repeat(3,1fr)} }
+    .product{background:var(--bg-card); border:1px solid color-mix(in lab, var(--muted), transparent 78%); border-radius:18px; padding:18px; display:flex; flex-direction:column; gap:10px}
+    .product h3{margin:0; font-size:1.1rem}
+    .product .meta{color:var(--muted); font-size:.95rem}
+    .product .badge{align-self:flex-start; padding:4px 10px; border-radius:999px; background:color-mix(in lab, var(--brand), white 80%); color:var(--brand-600); font-weight:700}
+    footer{background:linear-gradient(180deg, color-mix(in lab, var(--brand), transparent 84%), transparent 30%), var(--bg-card); border-top:1px solid color-mix(in lab, var(--muted), transparent 80%)}
+    .foot-grid{display:grid; gap:18px}
+    @media(min-width:820px){ .foot-grid{grid-template-columns:1.2fr .8fr}} 
+    .fineprint{color:var(--muted); font-size:.9rem}
+
+    .toast{position:fixed; inset:auto 16px 16px auto; background:var(--bg-card); color:var(--text); border:1px solid color-mix(in lab, var(--muted), transparent 78%); border-radius:12px; padding:10px 12px; box-shadow:var(--ring); opacity:0; transform:translateY(8px); pointer-events:none; transition:.25s}
+    .toast.show{opacity:1; transform:translateY(0)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="#top"><span class="logo-badge">U</span><span>Unstatic<sup>®</sup></span></a>
+      <!-- Desktop nav -->
+      <nav class="nav-group" aria-label="Primary">
+        <a class="nav-link" href="#products">Products</a>
+        <span class="divider" aria-hidden="true"></span>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button id="enquireBtn" class="cta" type="button">Enquire</button>
+      </nav>
+      <!-- Mobile toggle -->
+      <button id="openMenu" class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <a id="mailtoLink" href="mailto:unstatictechnology@gmail.com?subject=Enquiry%20—%20Unstatic%20Manufacturing" style="display:none" rel="noopener"></a>
+    </div>
+  </header>
+
+  <!-- Mobile slide-out menu -->
+  <div id="mobileMenu" class="sheet" hidden>
+    <div class="backdrop" data-close></div>
+    <div class="panel" role="dialog" aria-modal="true" aria-labelledby="menuTitle">
+      <div class="row">
+        <strong id="menuTitle">Menu</strong>
+        <button class="close-btn" type="button" data-close aria-label="Close menu">✕</button>
+      </div>
+      <div class="menu-links">
+        <a class="nav-link" href="#products" data-close>Products</a>
+        <a class="nav-link" href="#contact" data-close>Contact</a>
+        <button id="enquireBtnMobile" class="cta" type="button">Enquire</button>
+      </div>
+    </div>
+  </div>
+
+  <main id="top" class="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="eyebrow">Unstatic Technology Private Limited</div>
+        <h1 class="title">Manufacturing high‑quality consumer electronics for India</h1>
+        <p class="lead">ODM/OEM for <b>cables</b>, <b>power adapters</b>, and <b>mobile chargers</b>. Built to Indian standards, reliable at scale, delivered on schedule.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#products">View Products</a>
+          <a class="btn secondary" href="#contact">Get a Quote</a>
+        </div>
+      </div>
+      <!-- Optional hero image: uncomment if needed -->
+      <!-- <img src="static/images/power-adapter.png" alt="UNSTATIC Power Adapter" /> -->
+    </div>
+  </main>
+
+  <section id="products">
+    <div class="container">
+      <h2 class="section-title">Products</h2>
+      <div class="grid cols-3">
+        <article class="product">
+          <span class="badge">Cables</span>
+          <h3>USB‑C / Lightning</h3>
+          <p class="meta">Braided & TPE options, fast‑charge ready.</p>
+          <img src="static/images/cable.png" alt="UNSTATIC Cable" />
+        </article>
+        <article class="product">
+          <span class="badge">Power Adapters</span>
+          <h3>Compact 20W / 33W</h3>
+          <p class="meta">Type‑A / Type‑C, BIS compliant.</p>
+          <img src="static/images/power-adapter.png" alt="UNSTATIC Power Adapter" />
+        </article>
+        <article class="product">
+          <span class="badge">Mobile Chargers</span>
+          <h3>Fast‑Charge 25W/45W</h3>
+          <p class="meta">PD + QC, Indian plug type.</p>
+          <img src="static/images/mobile-charger.png" alt="UNSTATIC Mobile Charger" />
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p>Email: <a href="mailto:unstatictechnology@gmail.com">unstatictechnology@gmail.com</a></p>
+      <p class="fineprint"><strong>UNSTATIC TECHNOLOGY PVT LTD</strong><br>CIN: U46909KA2025PTC200557<br>GROUND FLOOR, SITE NO. 26 LASKAR, HOSUR RD,<br>CHIKKU LAKSHMAIAH LAYOUT, ADUGODI,<br>BENGALURU, KARNATAKA 560030</p>
+      <p><a class="btn" href="https://wa.me/919958632274" target="_blank">Chat on WhatsApp</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="padding:22px 0">
+      <div class="foot-grid">
+        <div>
+          <div class="logo" style="margin-bottom:8px"><span class="logo-badge" style="width:30px;height:30px">U</span> <b>Unstatic Technology Private Limited</b></div>
+          <p class="fineprint">© <span id="year"></span> Unstatic Technology Private Limited — Trademark: <b>Unstatic</b>. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script>
+    // Enquire handler shared by desktop & mobile
+    function handleEnquire(){
+      const mailto = document.getElementById('mailtoLink');
+      const toast = document.getElementById('toast');
+      const email = 'unstatictechnology@gmail.com';
+      function showToast(msg){ toast.textContent = msg; toast.classList.add('show'); setTimeout(()=>toast.classList.remove('show'), 2500); }
+      try{
+        mailto?.click();
+        window.location.href = mailto.href;
+        setTimeout(function(){
+          if (navigator.clipboard && window.isSecureContext){
+            navigator.clipboard.writeText(email).then(()=>showToast('Email copied: ' + email)).catch(()=>showToast('Email: ' + email));
+          } else { showToast('Email: ' + email); }
+        }, 300);
+      }catch(e){ showToast('Email: ' + email); }
+    }
+
+    // Wire up desktop & mobile buttons
+    document.getElementById('enquireBtn')?.addEventListener('click', handleEnquire);
+    document.getElementById('enquireBtnMobile')?.addEventListener('click', function(){
+      handleEnquire(); closeMenu();
+    });
+
+    // Mobile menu logic
+    const menu = document.getElementById('mobileMenu');
+    const openBtn = document.getElementById('openMenu');
+    function openMenu(){ menu.hidden = false; menu.classList.add('open'); openBtn.setAttribute('aria-expanded','true'); }
+    function closeMenu(){ menu.classList.remove('open'); openBtn.setAttribute('aria-expanded','false'); setTimeout(()=>menu.hidden=true, 250); }
+    openBtn?.addEventListener('click', openMenu);
+    menu?.addEventListener('click', (e)=>{ if (e.target.hasAttribute('data-close')) closeMenu(); });
+    document.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && !menu.hidden) closeMenu(); });
+    // Close after navigating
+    [...document.querySelectorAll('#mobileMenu a.nav-link')].forEach(a=>a.addEventListener('click', closeMenu));
+  </script>
+</body>
+</html>
