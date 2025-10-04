@@ -1,0 +1,351 @@
+[
+  {
+    "id": "S020AK",
+    "name": "Unstatic 20W S020AK",
+    "category": "chargers",
+    "price": "$20.00",
+    "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910942.jpg",
+    "features": [
+      "With Foldable design to make it compact and easy to carry",
+      "Various output states meet the VI standard of energy efficiency, high efficiency and energy saving",
+      "Support PD3.0, PPS, QC3.0 & QC2.0",
+      "The output is equipped with TVS protection to ensure the reliability of the power consumption"
+    ],
+    "specs": {
+      "Model Series": "S020AK",
+      "Input Parameter": {
+        "Rated Input Voltage": "100-240VAC",
+        "Max Input Voltage": "90-264VAC",
+        "Input Line Frequency": "47-63HZ",
+        "Maxmium Efficiency": "89%",
+        "AC Plug": "Foldable"
+      },
+      "Output Parameter": {
+        "Output Receptacle": "USB-C",
+        "Output Voltage": "5V/9V/12V",
+        "Output Current": "3A/2.22A/1.67A",
+        "Output Power": "20W MAX"
+      },
+      "Size": "40*33*33mm",
+      "Safety standard": "UL62368,EN62368,FCC PART 15,EN55032,GB4943.1",
+      "Safety Certificate": "UL/CUL,CCC,FCC, PSE"
+    }
+  },
+  {
+    "id": "S030CC",
+    "name": "Unstatic 30W S030CC",
+    "category": "chargers",
+    "price": "$30.00",
+    "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910581.jpg",
+    "features": [
+      "Flyback QR circuit topology",
+      "30W maximum, single USB-C port",
+      "Supports PD3.0,QC2.0,QC3.0,PPS, good compatibility",
+      "Meets the requirements of EU VI energy efficiency",
+      "Meets Global EMC requirement",
+      "Most competitive design for cost"
+    ],
+    "specs": {
+      "Model Series": "S030CC",
+      "Input Parameter": {
+        "Rated Input Voltage": "100-240VAC",
+        "Max Input Voltage": "90-264VAC",
+        "Input Line Frequency": "50-60HZ",
+        "Maxmium Efficiency": "90.0%",
+        "AC Plug": "Fixed Pin（CN/US/UK/EU）"
+      },
+      "Output Parameter": {
+        "Output Receptacle": "USB-C USB-A",
+        "Output Voltage": "5V/9V/15V/20V 5V/9V/12V",
+        "Output Current": "3A/3A/2A/1.5A 3A/2A/1.5A",
+        "Output Power": "30W MAX 18W MAX"
+      },
+      "Size": "50*42*30mm",
+      "Safety standard": "UL62368,EN62368,FCC PART 15,EN55032,GB4943.1",
+      "Safety Certificate": "Fulfill the UL/CUL,CB/CE,CCC,FCC and etc."
+    }
+  },
+  {
+    "id": "S045S-S045Z",
+    "name": "Unstatic 45W S045S/S045Z",
+    "category": "chargers",
+    "price": "$35.00",
+    "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910739.jpg?x-oss-process=image/resize,w_1006",
+    "features": [
+      "Compact design and easy to carry",
+      "Various output states meet the energy efficiency VI standard, high efficiency and energy saving; no-load standby is less than 0.03W",
+      "Support PD3.0, PPS, QC3.0 & QC2.0",
+      "The output is equipped with TVS protection to ensure the reliability of the power consumption"
+    ],
+    "specs": {
+      "Model Series": "S045S/S045Z",
+      "Input Parameter": {
+        "Rated Input Voltage": "100-240VAC",
+        "Max Input Voltage": "90-264VAC",
+        "Input Line Frequency": "47-63HZ",
+        "Maxmium Efficiency": "90.5%"
+      },
+      "Output Parameter": {
+        "Output Receptacle": "USB-C",
+        "Output Voltage": "5V/9V/12V/15V/20V",
+        "Output Current": "3A/3A/3A/3A/2.25A",
+        "Output Power": "45W MAX"
+      },
+      "Size": "51*41*29.5mm",
+      "Safety standard": "UL62368,EN62368,FCC PART 15,EN55032,GB4943.1",
+      "Safety Certificate": "UL/CUL, CB/CE, UKCA, CCC, PSES（S045Z  In the authentication）"
+    }
+  },
+  {
+    "id": "S065BA",
+    "name": "Unstatic 65W S065BA",
+    "category": "chargers",
+    "price": "$45.00",
+    "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/2023083191072.jpg",
+    "features": [
+      "Designed with foldable pins for easy portability",
+      "Various output states meet the VI standard of energy efficiency, high efficiency and energy saving",
+      "Dual-port output intelligent identification, intelligent power distribution",
+      "Support PD3.0 & PPS, and QC3.0 & QC2.0",
+      "USB-A Port 18W max, Type-C Port 65W max; A+C=C 45W+A 18W",
+      "Supports charging two devices simultaneously",
+      "The output is equipped with TVS protection to ensure the reliability of the power end"
+    ],
+    "specs": {
+      "Model Series": "S065BA",
+      "Input Parameter": {
+        "Rated Input Voltage": "100-240VAC",
+        "Max Input Voltage": "90-264VAC",
+        "Input Line Frequency": "47-63HZ",
+        "Maxmium Efficiency": "90%",
+        "AC Plug": "Foldable"
+      },
+      "Output Parameter": {
+        "Output Receptacle": "USB-C USB-A",
+        "Output Voltage": "5V/9V/12V/15V/20V 5V/9V/12V",
+        "Output Current": "3A/3A/3A/3A/3.25A 3A/2A/1.5A",
+        "Output Power": "65W MAX 18W MAX"
+      },
+      "Size": "61*58*28.5mm",
+      "Safety standard": "UL62368,EN62368,FCC PART 15,EN55032,GB4943.1",
+      "Safety Certificate": "UL/CUL,FCC,CCC"
+    }
+  },
+  {
+    "id": "S100T",
+    "name": "Unstatic 100W S100T (GaN)",
+    "category": "chargers",
+    "price": "$55.00",
+    "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910393.jpg?x-oss-process=image/resize,w_1006",
+    "features": [
+      "Adopt digital power technology PFC & HB half bridge circuit topology with GaN",
+      "Meet 40°C safety regulations and long-term operation",
+      "Designed for laptops",
+      "Efficiency up to 94%",
+      "Support PD3.0, PPS, QC3.0 & QC2.0",
+      "The output is equipped with TVS protection to ensure the reliability of the power consumption"
+    ],
+    "specs": {
+      "Model Series": "S100T（GaN）",
+      "Input Parameter": {
+        "Rated Input Voltage": "100-240VAC",
+        "Max Input Voltage": "90-264VAC",
+        "Input Line Frequency": "50-60HZ",
+        "Maxmium Efficiency": "94%",
+        "AC Plug": "Fixed Pin（CN/US/UK/EU）"
+      },
+      "Output Parameter": {
+        "Output Receptacle": "USB-C",
+        "Output Voltage": "5V/9V/11V/15V/20V",
+        "Output Current": "2A/3A/6A/3A/5A",
+        "Output Power": "120W"
+      },
+      "Size": "61.5*55.5*29mm",
+      "Safety standard": "UL62368,EN62368,FCC PART 15,EN55032,GB4943.1",
+      "Safety Certificate": "Fulfill the UL/CUL,CB/CE,CCC,FCC and etc."
+    }
+  },
+  {
+    "id": "S0140CA",
+    "name": "Unstatic 140W S0140CA",
+    "category": "chargers",
+    "price": "$65.00",
+    "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910468.jpg",
+    "features": [
+      "Adopts digital power technology AHB half-bridge circuit topology + GaN",
+      "Fulfill the 35-degree safety regulation and long-time operation",
+      "Designed for demanding notebook computers",
+      "Supports PD3.1, PPS, QC3.0 & QC2.0，good compatibility",
+      "The output is equipped with TVS protection to ensure the reliability of the power terminal."
+    ],
+    "specs": {
+      "Model Series": "S0140CA",
+      "Input Parameter": {
+        "Rated Input Voltage": "100-240VAC",
+        "Max Input Voltage": "90-264VAC",
+        "Input Line Frequency": "50-60HZ",
+        "Maxmium Efficiency": "94%",
+        "AC Plug": "Fixed Pin（CN/US/UK/EU"
+      },
+      "Output Parameter": {
+        "Output Receptacle": "USB-C",
+        "Output Voltage": "5V/9V/12V/15V/20V/28V",
+        "Output Current": "3A/3A/3A/3A/5A/5A",
+        "Output Power": "140W Max"
+      },
+      "Size": "68*65*31mm",
+      "Safety standard": "UL62368,EN62368,FCC PART 15,EN55032,GB4943.1",
+      "Safety Certificate": "Fulfill the UL/CUL,CB/CE,CCC,FCC and etc."
+    }
+  },
+  {
+    "id": "usb4-v2-full-featured-usb-c-cable-240w-80gbps-1m",
+    "name": "Unstatic USB4 V2.0 Full-featured USB-C Cable 240W 80Gbps",
+    "category": "cables",
+    "price": "$30.00",
+    "images": [
+      "https://www.ce-link.com/api/uploadPath/81dfa0bd8b9d474bb23f6640beaa8e91.png",
+      "https://www.ce-link.com/api/uploadPath/082ad497a7d448bb8413947148b9abd8.png",
+      "https://www.ce-link.com/api/uploadPath/52fbcdb265b24d3e9f9e14445b5b7dde.png",
+      "https://www.ce-link.com/api/uploadPath/4e453112feab4b69a28ba1673a0069cf.png"
+    ],
+    "features": [
+      "Bandwidth up to 80Gbps, the data transmission capacity is twice that of the current USB4 40Gbps cables",
+      "Support single resolution up to 16K and power up to  240W (48V/5A)",
+      "You can use this cable to connect PC with Thunderbolt 3、 Thunderbolt 4 and USB4  ports to monitors and devices with Thunderbolt and USB ports, such as Studio Display, Pro Display XDR, docks and hard drives",
+      "Compatible with TBT3, USB 40Gbps , USB 20Gbps, USB 10Gbps, USB 5Gbps, USB 2.0",
+      "Over mold ABS+PVC/ABS+TPE; Cable length up to 1m (without redriver);  OD: 5mm"
+    ],
+    "specs": {
+      "Specification": {
+        "Bandwidth": "up to 80Gbps",
+        "Resolution": "up to 16K",
+        "Power": "up to 240W (48V/5A)",
+        "Compatibility": "TBT3, USB 40Gbps , USB 20Gbps, USB 10Gbps, USB 5Gbps, USB 2.0",
+        "Material": "Over mold ABS+PVC/ABS+TPE",
+        "Length": "up to 1m (without redriver)",
+        "OD": "5mm"
+      }
+    }
+  },
+  {
+    "id": "usb2-type-c-male-to-dual-type-c-male-charging-cable-140w",
+    "name": "Unstatic USB2.0 Type-C Male to dual Type-C Male Charging Cable 140W",
+    "category": "cables",
+    "price": "$35.00",
+    "images": [
+      "https://www.ce-link.com/api/uploadPath/c3d28765cb884768afd97f9e97f1de6b.png",
+      "https://www.ce-link.com/api/uploadPath/5a4d2c3ac76244f5a8a65b2028f1fb58.png",
+      "https://www.ce-link.com/api/uploadPath/046a6dd929694be09b759aa866ba59d5.png",
+      "https://www.ce-link.com/api/uploadPath/676edae857204a17974b754a98cdcbbc.png"
+    ],
+    "features": [
+      "2-in-1 Charging Cable: Easily charge two of your devices - whether they’re smartphones, laptops, or tablets - simultaneously using just one cable. This is especially handy for travel and business trips. Its design aims to reduce clutter, making it perfect for maintaining an organized space and traveling light.",
+      "140W Max Charging: When one device is connected, this cable offers a maximum charging rate of 140W. When two devices are connected simultaneously, the charging power is assigned preferentially to the first device plugged in, with both ports share max 140W.",
+      "Intelligent Distribution of Power: Built-in smart power management adapts power output to match the charging requirements of each connected device seamlessly.The cable automatically allocates power according to the power supply and mobile terminal demand and share max 140W",
+      "Data transfers up to 480 Mbps:The device only that is connected first can support USB2.0 data transmission.",
+      "Flexible Charging Options(6ft): Gain full control over your charging setup with a versatile design featuring a fixed 5 ft length and two adjustable sections, each capable of shortening from 1 ft to meet your specific needs.",
+      "Compatibility:Compatible with all devices that support the PD and pps protocols."
+    ],
+    "specs": {
+      "Specification": {
+        "Data transfers": "up to 480 Mbps",
+        "Power": "140W Max",
+        "Length": "6ft"
+      }
+    }
+  },
+  {
+    "id": "usb-cable-variations",
+    "name": "Unstatic 240W USB4 & USB3.2 Cables",
+    "category": "cables",
+    "price": "$25.00 - $40.00",
+    "images": [
+      "https://www.ce-link.com/api/uploadPath/c8eb9912467a415982e84eb3b7f8cf5b.png",
+      "https://www.ce-link.com/api/uploadPath/633c0fb85b58413bb886c23731899992.png",
+      "https://www.ce-link.com/api/uploadPath/f864573a94cb41e2bfcd7275c6ca7d3d.png",
+      "https://www.ce-link.com/api/uploadPath/c8eb9912467a415982e84eb3b7f8cf5b.png"
+    ],
+    "features": [
+      "Silicon Gel material, ultra soft and flexible to touch Remain tangle-free after being bended, twisted, flexed"
+    ],
+    "variations": [
+      {
+        "id": "usb4-gen3",
+        "name": "USB4 Gen3 40G Cable",
+        "specs": {
+          "Model": "USB4 Gen3",
+          "Plug": "Type-C Male*2",
+          "Bandwith": "40G",
+          "Resolution": "8K/60Hz",
+          "Power": "240W",
+          "Length": "1M",
+          "OD": "6.0mm",
+          "Material": "TPE+Silicon Gel material"
+        }
+      },
+      {
+        "id": "usb4-gen2",
+        "name": "USB4 Gen2 20G Cable",
+        "specs": {
+          "Model": "USB4 Gen2",
+          "Plug": "Type-C Male*2",
+          "Bandwith": "20G",
+          "Resolution": "4K/60Hz",
+          "Power": "240W",
+          "Length": "2M",
+          "OD": "6.0mm",
+          "Material": "TPE+Silicon Gel material"
+        }
+      },
+      {
+        "id": "usb3-2-gen2",
+        "name": "USB3.2 Gen2 10G Cable",
+        "specs": {
+          "Model": "USB3.2 Gen2",
+          "Plug": "Type-C Male*2",
+          "Bandwith": "10G",
+          "Resolution": "4K/60Hz",
+          "Power": "240W",
+          "Length": "1M",
+          "OD": "5.5mm",
+          "Material": "TPE+Silicon Gel material"
+        }
+      }
+    ]
+  },
+  {
+    "id": "unstatic-video-doorbell",
+    "name": "Unstatic Video Doorbell",
+    "category": "adapters",
+    "price": "$99.00",
+    "images": [
+      "https://www.ce-link.com/api/uploadPath/3eeb22dd7c93472fa4332306c6191cfc.png",
+      "https://www.ce-link.com/api/uploadPath/41d78f5d19e5458dbe745b6c077b93db.png",
+      "https://www.ce-link.com/api/uploadPath/0af75d0b94e444ab9db4af1d0b92c161.png",
+      "https://www.ce-link.com/api/uploadPath/130feae3baea428f93317ed5c1b2aabb.png"
+    ],
+    "features": [
+      "2.5K(2208*1656) Ultra HD Resolution",
+      "HDR mode makes Dynamic Range up to 100 dB",
+      "Triggered by PIR whose detection ranges up to 5 meters",
+      "Support Human Detection",
+      "Battery powered doorbell’s  standby time ranges up to 6 months",
+      "Support H264/ H265 video encoding; Full-Duplex Two-way Audio"
+    ],
+    "specs": {
+      "Model": "Video Doorbell",
+      "Chipset": "T31ZX+JX-K05+ATBM6441",
+      "Resolution": "2.5K(2208*1656)",
+      "Video Coding": "H.265/ H.264",
+      "Alarm Trigger": "PIR Detection Module",
+      "Power Supply": "Battery and Wired with AC8-24V",
+      "Tie-in with": "1. Doorbell tie-in with RF433Mhz Chime 2. Doorbell tie-in with Relay Chime",
+      "Connectivity": "Wifi: only 2.4Ghz; 433MHz Wireless",
+      "Smart AI": "Human Detection",
+      "Weather proof": "IP65",
+      "Dimensions": "151(L)*61(W)*31(H)mm",
+      "Item Weight": "TBD"
+    }
+  }
+]
