@@ -1,69 +1,62 @@
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Thin.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_Thin.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Thin_Italic.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_Thin_Italic.woff2') format('woff2');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_ExtraLight.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_ExtraLight.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_ExtraLight_DEMO.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Regular.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Blanc_Regular_Italic.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_Blanc_Regular_Italic.woff2') format('woff2');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Bold.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Blanc_Bold_Italic.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_Blanc_Bold_Italic.woff2') format('woff2');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Blanc_ExtraBold.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_Blanc_ExtraBold.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Heavy_DEMO.ttf') format('truetype');
+    src: url('fonts/fonnts.com-Mont_Heavy_DEMO.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
 }
