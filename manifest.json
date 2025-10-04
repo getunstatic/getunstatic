@@ -1,0 +1,17 @@
+
+{
+  "name": "Unstatic",
+  "short_name": "Unstatic",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00A878",
+  "description": "Unstatic is a leading provider of high-quality mobile accessories. We offer a wide range of products, including chargers, cables, and power adapters, all designed to be reliable and affordable.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
