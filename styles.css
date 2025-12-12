@@ -443,31 +443,121 @@ font-weight: 700;
 
 footer {
     background: var(--text-dark);
-    color: white;
-    padding: 3rem 0 1rem;
+    color: #ccc;
+    padding: 4rem 0 2rem;
 }
 
-.footer-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
-.footer-section h4 {
+.footer-about {
+    flex: 2;
+    min-width: 250px;
+}
+
+.footer-about .logo-img {
+    height: 40px;
     margin-bottom: 1rem;
-    color: var(--primary-color);
 }
 
-.company-name {
-    font-size: 0.9rem;
-    color: #999;
-    margin-top: 0.5rem;
+.footer-about .company-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--bg-white);
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .company-title {
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-weight: 700; /* Make it bold */
+    color: var(--primary-color); /* Use the primary color */
+}
+
+.footer-address-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    color: #ccc;
+}
+
+.footer-address {
+    margin-top: 0.5rem;
+}
+
+
+.footer-about .company-address {
+    font-size: 0.9rem;
+    color: #999;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+    flex: 3;
+    justify-content: flex-end;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-section h4 {
+    font-size: 1.1rem;
+    color: var(--bg-white);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.75rem;
+}
+
+.footer-section ul a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul a:hover {
+    color: var(--primary-color);
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #333;
+    color: #999;
+}
+
+.social-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: #ccc;
+    transition: fill 0.3s ease;
+}
+
+.social-icon:hover svg {
+    fill: var(--primary-color);
 }
 
 .product-detail-section {
