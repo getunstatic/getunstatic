@@ -7,6 +7,7 @@
     <meta name="description" content="View product details for Unstatic's high-quality mobile accessories. See specifications, features, and pricing.">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&family=Oswald:wght@500&display=swap">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -107,25 +108,35 @@
                     if (product) {
                         document.title = product.name;
 
+                        let imagesToDisplay = [];
+                        if (product.images && Array.isArray(product.images)) {
+                            imagesToDisplay = product.images;
+                        } else if (product.image) {
+                            imagesToDisplay = [product.image];
+                        }
+
                         let imageHtml = '';
-                        if (Array.isArray(product.images)) {
+                        if (imagesToDisplay.length > 0) {
+                            const maxThumbnails = 5;
+                            const showMoreButton = imagesToDisplay.length > maxThumbnails ? '<button class="show-more-thumbnails">Show More</button>' : '';
                             imageHtml = `
                                 <div class="product-image-gallery">
                                     <div class="gallery-main-image">
-                                        <img src="${product.images[0]}" alt="${product.name}">
+                                        <img src="${imagesToDisplay[0]}" alt="${product.name}">
                                         <div class="gallery-controls">
                                             <button class="prev-btn">&lt;</button>
                                             <button class="next-btn">&gt;</button>
                                         </div>
-                                        <div class="gallery-counter">1 / ${product.images.length}</div>
+                                        <div class="gallery-counter">1 / ${imagesToDisplay.length}</div>
                                     </div>
                                     <div class="gallery-thumbnails">
-                                        ${product.images.map((image, index) => `<img src="${image}" alt="${product.name}" class="thumbnail ${index === 0 ? 'active' : ''}" data-index="${index}">`).join('')}
+                                        ${imagesToDisplay.map((image, index) => `<img src="${image}" alt="${product.name}" class="thumbnail ${index === 0 ? 'active' : ''} ${index >= maxThumbnails ? 'hidden' : ''}" data-index="${index}">`).join('')}
                                     </div>
+                                    ${showMoreButton}
                                 </div>
                             `;
                         } else {
-                            imageHtml = `<img src="${product.image}" alt="${product.name}">`;
+                            imageHtml = `<p>No images available for this product.</p>`;
                         }
 
                         let specsHtml = '';
@@ -202,7 +213,7 @@
                             </div>
                         `;
 
-                        if (Array.isArray(product.images)) {
+                        if (imagesToDisplay.length > 0) {
                             const mainImage = document.querySelector('.gallery-main-image img');
                             const thumbnails = document.querySelectorAll('.gallery-thumbnails .thumbnail');
                             const lightbox = document.getElementById('lightbox');
@@ -215,7 +226,7 @@
                             let currentIndex = 0;
 
                             function updateGallery() {
-                                mainImage.src = product.images[currentIndex];
+                                mainImage.src = imagesToDisplay[currentIndex];
                                 thumbnails.forEach((t, index) => {
                                     if (index === currentIndex) {
                                         t.classList.add('active');
@@ -223,7 +234,7 @@
                                         t.classList.remove('active');
                                     }
                                 });
-                                galleryCounter.textContent = `${currentIndex + 1} / ${product.images.length}`;
+                                galleryCounter.textContent = `${currentIndex + 1} / ${imagesToDisplay.length}`;
                             }
 
                             mainImage.addEventListener('click', () => {
@@ -236,12 +247,12 @@
                             });
 
                             prevBtn.addEventListener('click', () => {
-                                currentIndex = (currentIndex - 1 + product.images.length) % product.images.length;
+                                currentIndex = (currentIndex - 1 + imagesToDisplay.length) % imagesToDisplay.length;
                                 updateGallery();
                             });
 
                             nextBtn.addEventListener('click', () => {
-                                currentIndex = (currentIndex + 1) % product.images.length;
+                                currentIndex = (currentIndex + 1) % imagesToDisplay.length;
                                 updateGallery();
                             });
 
@@ -251,6 +262,19 @@
                                     updateGallery();
                                 });
                             });
+
+                            const showMoreBtn = document.querySelector('.show-more-thumbnails');
+                            if (showMoreBtn) {
+                                showMoreBtn.addEventListener('click', () => {
+                                    const hiddenThumbnails = document.querySelectorAll('.gallery-thumbnails .thumbnail.hidden');
+                                    for (let i = 0; i < 5 && i < hiddenThumbnails.length; i++) {
+                                        hiddenThumbnails[i].classList.remove('hidden');
+                                    }
+                                    if (document.querySelectorAll('.gallery-thumbnails .thumbnail.hidden').length <= 5) {
+                                        showMoreBtn.style.display = 'none';
+                                    }
+                                });
+                            }
                         }
 
                         if (product.variations) {

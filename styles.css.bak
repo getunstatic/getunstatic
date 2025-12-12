@@ -778,9 +778,23 @@ html {
     border-radius: 15px;
 }
 
+.gallery-thumbnails-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .gallery-thumbnails {
     display: flex;
     gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.gallery-thumbnails::-webkit-scrollbar {
+    display: none;
 }
 
 .gallery-thumbnails .thumbnail {
@@ -792,23 +806,29 @@ html {
     border: 2px solid transparent;
     transition: border-color 0.3s ease;
 }
-.gallery-thumbnails .thumbnail.hidden {
-    display: none;
+
+.gallery-thumbnails .thumbnail:hover,
+.gallery-thumbnails .thumbnail.active {
+    border-color: var(--primary-color);
+    border-width: 3px;
 }
 
-.show-more-thumbnails {
-    background-color: var(--primary-color);
-    color: white;
+.thumbnail-prev-btn,
+.thumbnail-next-btn {
+    background-color: var(--primary-light);
     border: none;
-    padding: 0.5rem 1rem;
+    color: var(--primary-dark);
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 1rem;
-    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.show-more-thumbnails:hover {
-    background-color: var(--primary-dark);
+.thumbnail-prev-btn:hover,
+.thumbnail-next-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-white);
 }
 
 .lightbox {
