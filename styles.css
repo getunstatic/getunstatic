@@ -1,65 +1,4 @@
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Thin.woff2') format('woff2');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Thin_Italic.woff2') format('woff2');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_ExtraLight.woff2') format('woff2');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Blanc_Regular_Italic.woff2') format('woff2');
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Blanc_Bold_Italic.woff2') format('woff2');
-    font-weight: 700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Blanc_ExtraBold.woff2') format('woff2');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mont';
-    src: url('fonts/fonnts.com-Mont_Heavy_DEMO.woff2') format('woff2');
-    font-weight: 900;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 * {
     margin: 0;
@@ -79,11 +18,12 @@
 }
 
 body {
-    font-family: 'Mont', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: var(--text-dark);
     line-height: 1.6;
     overflow-x: hidden;
-    font-variant-ligatures: none;
+    font-synthesis: none;
+    font-feature-settings: 'smcp' off;
 }
 
 .container {
@@ -135,10 +75,9 @@ header {
 .nav-menu a {
     text-decoration: none;
     color: var(--text-dark);
-    font-weight: 500;
+    font-weight: 400;
     transition: color 0.3s ease;
 }
-
 .nav-menu a:hover {
     color: var(--primary-color);
 }
@@ -171,8 +110,7 @@ header {
     color: white;
     padding: 1rem 2.5rem;
     border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
+font-weight: 700;
     font-size: 1.1rem;
     transition: all 0.3s ease;
     border: none;
@@ -191,7 +129,7 @@ header {
     padding: 0.7rem 1.5rem;
     border: 2px solid var(--primary-color);
     border-radius: 50px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -883,7 +821,7 @@ html {
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .form-group input,
@@ -894,3 +832,4 @@ html {
     border-radius: 5px;
     font-size: 1rem;
 }
+

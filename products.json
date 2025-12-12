@@ -2,7 +2,7 @@
   {
     "id": "S020AK",
     "name": "Unstatic 20W S020AK",
-    "category": "chargers",
+    "category": "accessories",
     "price": "$20.00",
     "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910942.jpg",
     "features": [
@@ -34,7 +34,7 @@
   {
     "id": "S030CC",
     "name": "Unstatic 30W S030CC",
-    "category": "chargers",
+    "category": "accessories",
     "price": "$30.00",
     "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910581.jpg",
     "features": [
@@ -68,7 +68,7 @@
   {
     "id": "S045S-S045Z",
     "name": "Unstatic 45W S045S/S045Z",
-    "category": "chargers",
+    "category": "accessories",
     "price": "$35.00",
     "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910739.jpg?x-oss-process=image/resize,w_1006",
     "features": [
@@ -99,7 +99,7 @@
   {
     "id": "S065BA",
     "name": "Unstatic 65W S065BA",
-    "category": "chargers",
+    "category": "accessories",
     "price": "$45.00",
     "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/2023083191072.jpg",
     "features": [
@@ -134,7 +134,7 @@
   {
     "id": "S100T",
     "name": "Unstatic 100W S100T (GaN)",
-    "category": "chargers",
+    "category": "accessories",
     "price": "$55.00",
     "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910393.jpg?x-oss-process=image/resize,w_1006",
     "features": [
@@ -168,7 +168,7 @@
   {
     "id": "S0140CA",
     "name": "Unstatic 140W S0140CA",
-    "category": "chargers",
+    "category": "accessories",
     "price": "$65.00",
     "image": "https://webertop.oss-cn-hongkong.topkee.top/u_455/20230831910468.jpg",
     "features": [
@@ -201,7 +201,7 @@
   {
     "id": "usb4-v2-full-featured-usb-c-cable-240w-80gbps-1m",
     "name": "Unstatic USB4 V2.0 Full-featured USB-C Cable 240W 80Gbps",
-    "category": "cables",
+    "category": "accessories",
     "price": "$30.00",
     "images": [
       "https://www.ce-link.com/api/uploadPath/81dfa0bd8b9d474bb23f6640beaa8e91.png",
@@ -231,7 +231,7 @@
   {
     "id": "usb2-type-c-male-to-dual-type-c-male-charging-cable-140w",
     "name": "Unstatic USB2.0 Type-C Male to dual Type-C Male Charging Cable 140W",
-    "category": "cables",
+    "category": "accessories",
     "price": "$35.00",
     "images": [
       "https://www.ce-link.com/api/uploadPath/c3d28765cb884768afd97f9e97f1de6b.png",
@@ -258,7 +258,7 @@
   {
     "id": "usb-cable-variations",
     "name": "Unstatic 240W USB4 & USB3.2 Cables",
-    "category": "cables",
+    "category": "accessories",
     "price": "$25.00 - $40.00",
     "images": [
       "https://www.ce-link.com/api/uploadPath/c8eb9912467a415982e84eb3b7f8cf5b.png",
@@ -317,7 +317,7 @@
   {
     "id": "unstatic-video-doorbell",
     "name": "Unstatic Video Doorbell",
-    "category": "adapters",
+    "category": "smarthome",
     "price": "$99.00",
     "images": [
       "https://www.ce-link.com/api/uploadPath/3eeb22dd7c93472fa4332306c6191cfc.png",
@@ -346,6 +346,85 @@
       "Weather proof": "IP65",
       "Dimensions": "151(L)*61(W)*31(H)mm",
       "Item Weight": "TBD"
+    }
+  },
+  {
+    "id": "wifi-station-kit",
+    "name": "Unstatic WiFi Station KIT",
+    "category": "smarthome",
+    "price": "$120.00",
+    "images": [
+      "https://www.ce-link.com/api/uploadPath/df1096e8c81f41fdbe50f3ead3f53c6b.png",
+      "https://www.ce-link.com/api/uploadPath/04539be4500f49e89b659896b3463313.png",
+      "https://www.ce-link.com/api/uploadPath/f09db50fbf5a448d86e8156a42457355.png",
+      "https://www.ce-link.com/api/uploadPath/2366062442694a2184e28e0c8feb21ca.png"
+    ],
+    "features": [
+      "Up to 10 Cameras can be connected",
+      "Support local HDD storage and TF card storage",
+      "Support 2-10 cameras recording at the same time",
+      "Support local decoding and HDMI display"
+    ],
+    "specs": {
+      "Model": "WIFI Station KIT",
+      "Chipset": "NVR resolution",
+      "Network": "WIFI; IEEE802.11 b/g/n ; 2.4Ghz-2.485Ghz",
+      "Work mode": "H.264",
+      "Transmission distance": "Human Detection and auto tracking",
+      "Connect & Record": "Support 10 ch Camera Max connecting and Recording simultaneously",
+      "Storage": "8TB HDD; 256G TF Max",
+      "Output": "HDMI, 4K@30",
+      "Interface": "1x Ethernet; 1x TF card; 1x Button",
+      "Power in": "DC 12V-2A",
+      "Weatherproof": "IP53"
+    }
+  },
+  {
+    "id": "otd500-outdoor-5g-router",
+    "name": "Unstatic Outdoor 5G NR Router OTD500",
+    "category": "adapters",
+    "price": "$300.00",
+    "images": [
+      "https://static.wixstatic.com/media/814ec4_6c676e9347dd4dd982205d102f3ed2ee~mv2.png",
+      "https://static.wixstatic.com/media/814ec4_fe56433107ee4d939c81107b582e9201~mv2.png",
+      "https://static.wixstatic.com/media/814ec4_2bbf4f5f04724f998a29a9581c8d6e04~mv2.png",
+      "https://static.wixstatic.com/media/814ec4_d5046e308604404190d0a1186bdad128~mv2.png",
+      "https://static.wixstatic.com/media/814ec4_30a571bcc2394f85a4ebb10f126282bf~mv2.png"
+
+    ],
+    "features": [
+      "The OTD500 is a durable 5G outdoor router built for reliable connectivity in demanding environments.",
+      "Its IP55-rated housing withstands harsh conditions, and the integrated mounting bracket enables quick, hassle-free installation.",
+      "Dual SIM and eSIM with automatic switching provide exceptional network flexibility and redundancy.",
+      "Gigabit Ethernet ports with PoE-in and PoE-out simplify setup by combining power and data in a single cable.",
+      "Fully RMS-compatible, the OTD500 offers effortless remote management, making it perfect for outdoor connectivity solutions."
+    ],
+    "specs": {
+      "Mobile": {
+        "Mobile module": "5G Sub-6Ghz SA/NSA 2.4/3.4Gbps DL (4x4 MIMO), 900/550 Mbps UL (2x2); 4G (LTE) – LTE Cat 19 1.6Gbps DL, Cat 18 200Mbps UL; 3G – 42 Mbps DL, 5.76Mbps UL",
+        "3GPP Release": "Release 16",
+        "eSIM": "Consumer type eSIM, profile download and removal operations, up to 7 eSIM profiles; does not include data plans",
+        "SIM switch": "2 SIM cards, auto-switch cases: weak signal, data limit, SMS limit, roaming, no network, network denied, data connection fail, SIM idle protection",
+        "Status": "IMSI, ICCID, operator, operator state, data connection state, network type, bandwidth, connected band, signal strength (RSSI), SINR, RSRP, RSRQ, EC/IO, RSCP, data sent/received, LAC, TAC, cell ID, ARFCN, UARFCN, EARFCN, MCC, and MNC",
+        "SMS": "SMS status, SMS configuration, EMAIL to SMS, SMS to EMAIL, SMS to HTTP, SMS to SMS, scheduled SMS, SMS autoreply, SMPP",
+        "USSD": "Supports sending and reading Unstructured Supplementary Service Data messages",
+        "Block/Allow list": "Operator block/allow list (by country or separate operators)",
+        "Band management": "Band lock, Used band status display",
+        "SIM idle protection service": "Provides the possibility to configure the router to periodically switch to the unused SIM card and establish a data connection in order to prevent the SIM card from being blocked",
+        "SIM PIN code management": "SIM PIN code management enables setting, changing, or disabling the SIM card's PIN",
+        "APN": "Auto APN",
+        "Bridge": "Direct connection (bridge) between mobile ISP and device on LAN",
+        "Passthrough": "Router assigns its mobile WAN IP address to another device on LAN",
+        "Framed routing": "Framed routing: support an IP network behind 5G UE"
+      },
+      "Ethernet": {
+        "Ethernet": "2 x ETH ports (can be configured as WAN), 10/100/1000 Mbps, compliance with IEEE 802.3, IEEE 802.3u, 802.3az standards, supports auto MDI/MDIX crossover"
+      },
+      "Network": {
+          "Routing": "Static routing, Dynamic routing (BGP, OSPF v2, RIP v1/v2, EIGRP, NHRP), Policy based routing",
+          "Network protocols": "TCP, UDP, IPv4, IPv6, ICMP, NTP, DNS, HTTP, HTTPS, SFTP, FTP, SMTP, SSL/TLS, ARP, VRRP, PPP, PPPoE, UPNP, SSH, DHCP, Telnet, SMPP, SNMP, MQTT, Wake On Lan (WOL), VXLAN",
+          "VoIP passthrough support": "H.323 and SIP-alg protocol NAT helpers, allowing proper routing of VoIP packets"
+      }
     }
   }
 ]
