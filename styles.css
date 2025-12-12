@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@font-face {
+    font-family: 'Mont';
+    src: url('fonts/fonnts.com-Mont_Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url('fonts/fonnts.com-Mont_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url('fonts/fonnts.com-Mont_Blanc_ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
 
 * {
     margin: 0;
@@ -18,7 +37,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Mont', sans-serif;
     color: var(--text-dark);
     line-height: 1.6;
     overflow-x: hidden;
@@ -367,9 +386,23 @@ font-weight: 700;
     gap: 2rem;
 }
 
+.impact-icon {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
 .impact-card {
+    background: var(--bg-white);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    padding: 2.5rem;
     text-align: center;
-    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.impact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .impact-number {
@@ -431,46 +464,6 @@ footer {
     color: #999;
     margin-top: 0.5rem;
 }
-
-.footer-section ul {
-    list-style: none;
-}
-
-.footer-section ul li {
-    margin-bottom: 0.5rem;
-}
-
-
-
-.footer-section a {
-    color: #ccc;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-section a:hover {
-    color: var(--primary-color);
-}
-
-.footer-bottom {
-    text-align: center;
-    padding-top: 2rem;
-    border-top: 1px solid #333;
-    color: #999;
-}
-
-.social-icon svg {
-    width: 24px;
-    height: 24px;
-    fill: #ccc;
-    transition: fill 0.3s ease;
-}
-
-.social-icon:hover svg {
-    fill: var(--primary-color);
-}
-
-
 
 .company-title {
     font-weight: bold;
