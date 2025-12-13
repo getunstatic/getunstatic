@@ -117,6 +117,8 @@
 
                         let imageHtml = '';
                         if (imagesToDisplay.length > 0) {
+                            const maxThumbnails = 5;
+                            const showMoreButton = imagesToDisplay.length > maxThumbnails ? '<button class="show-more-thumbnails">Show More</button>' : '';
                             imageHtml = `
                                 <div class="product-image-gallery">
                                     <div class="gallery-main-image">
@@ -127,7 +129,7 @@
                                         </div>
                                         <div class="gallery-counter">1 / ${imagesToDisplay.length}</div>
                                     </div>
-                                    <div class="gallery-thumbnails product-gallery-thumbnail">
+                                    <div class="gallery-thumbnails">
                                         ${imagesToDisplay.map((image, index) => `<img src="${image}" alt="${product.name}" class="thumbnail ${index === 0 ? 'active' : ''}" data-index="${index}">`).join('')}
                                     </div>
                                 </div>
@@ -261,7 +263,18 @@
                                 });
                             });
 
-
+                            const showMoreBtn = document.querySelector('.show-more-thumbnails');
+                            if (showMoreBtn) {
+                                showMoreBtn.addEventListener('click', () => {
+                                    const hiddenThumbnails = document.querySelectorAll('.gallery-thumbnails .thumbnail.hidden');
+                                    for (let i = 0; i < 5 && i < hiddenThumbnails.length; i++) {
+                                        hiddenThumbnails[i].classList.remove('hidden');
+                                    }
+                                    if (document.querySelectorAll('.gallery-thumbnails .thumbnail.hidden').length === 0) {
+                                        showMoreBtn.style.display = 'none';
+                                    }
+                                });
+                            }
                         }
 
                         if (product.variations) {
