@@ -956,3 +956,25 @@ html {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-name-container {
+    margin-bottom: 1rem;
+}
+
+.company-details-container {
+    margin-bottom: 1rem;
+}
+
+.address-container {
+    margin-bottom: 1rem;
+}
+
+.company-name .company-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
